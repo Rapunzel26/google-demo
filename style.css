@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu-icon,
+.s-icon,
+.vs-icon {
+    width: 24px;
+}
+.mc-icon {
+    width: 24px;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+}
+
+
+nav {
+   
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    align-items: center;
+}
+
+nav a {
+    padding: 5px 7px;
+    color: #000;
+}
+nav button {
+    background: #1a73e8;
+    padding: 7px 12px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+
+}
+section {
+    background-color: wheat;
+    flex: 1;
+
+   
+}
+
+section .logo {
+display: block;
+margin: 0 auto;
+}
+
+.s-box {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.s-box .s-input {
+    width: 100%;
+    padding:13px;
+    padding-left: 45px;
+    padding-right: 48px;
+    border-radius: 25px;
+}
+
+.mc-icon {
+    position: absolute;
+    right:10px;
+    bottom:30px;
+    width: 24px;
+    
+}
+
+
+.s-icon {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    opacity: .5;
+
+}
+footer {
+    background-color: bisque;
+}
